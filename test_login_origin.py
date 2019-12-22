@@ -26,6 +26,7 @@ class TestTsg:
         self.driver.get("https://fxm5547.baobaobooks.com/")
         assert "小明fxm5547" in self.driver.title
         sleep(5)
+        self.driver.get_screenshot_as_png('firstpage.png')
 
     def teardown(self):
         self.driver.quit()
