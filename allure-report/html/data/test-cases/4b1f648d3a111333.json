@@ -1,12 +1,12 @@
 {
-  "uid" : "a8bac30c8623c305",
+  "uid" : "4b1f648d3a111333",
   "name" : "test_my",
   "fullName" : "testcase.test_login_origin.TestTsg#test_my",
   "historyId" : "79ed8f22c275b1b65af9b1bb3297ba9c",
   "time" : {
-    "start" : 1577018065841,
-    "stop" : 1577018065842,
-    "duration" : 1
+    "start" : 1577020549519,
+    "stop" : 1577020549519,
+    "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,21 +15,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "91d7a0d6a2387eba",
+      "uid" : "c88d434bc46bd782",
       "name" : "log",
-      "source" : "91d7a0d6a2387eba.txt",
+      "source" : "c88d434bc46bd782.txt",
       "type" : "text/plain",
       "size" : 0
     }, {
-      "uid" : "a3b25b8e2baf6ae8",
+      "uid" : "ffe21e6cddb97222",
       "name" : "stdout",
-      "source" : "a3b25b8e2baf6ae8.txt",
+      "source" : "ffe21e6cddb97222.txt",
       "type" : "text/plain",
       "size" : 0
     }, {
-      "uid" : "b093af9c0966de73",
+      "uid" : "8b387269f8b47245",
       "name" : "stderr",
-      "source" : "b093af9c0966de73.txt",
+      "source" : "8b387269f8b47245.txt",
       "type" : "text/plain",
       "size" : 0
     } ],
@@ -54,7 +54,7 @@
     "value" : "promote.cache-dns.local"
   }, {
     "name" : "thread",
-    "value" : "48087-MainThread"
+    "value" : "50863-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -74,10 +74,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "eaadda1ce6af7ea2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577018065841,
+        "stop" : 1577018065842,
+        "duration" : 1
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a8bac30c8623c305.json",
+  "source" : "4b1f648d3a111333.json",
   "parameterValues" : [ ]
 }

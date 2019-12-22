@@ -9,13 +9,13 @@
         "name" : "TestTsg",
         "children" : [ {
           "name" : "test_my",
-          "uid" : "a8bac30c8623c305",
+          "uid" : "4b1f648d3a111333",
           "parentUid" : "3058821c4a9d9ff9677e3ebf35466890",
           "status" : "passed",
           "time" : {
-            "start" : 1577018065841,
-            "stop" : 1577018065842,
-            "duration" : 1
+            "start" : 1577020549519,
+            "stop" : 1577020549519,
+            "duration" : 0
           },
           "flaky" : false,
           "parameters" : [ ]
