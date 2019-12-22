@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "promote.cache-dns.local",
+    "children" : [ {
+      "name" : "48087-MainThread",
+      "children" : [ {
+        "name" : "test_my",
+        "uid" : "a8bac30c8623c305",
+        "parentUid" : "b1cd7c05c0cf39e587c4e48dbcb962ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577018065841,
+          "stop" : 1577018065842,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1cd7c05c0cf39e587c4e48dbcb962ad"
+    } ],
+    "uid" : "2cf542a420dd678b88b5d47aba5cf5d5"
+  } ]
+}

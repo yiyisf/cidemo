@@ -1,0 +1,83 @@
+{
+  "uid" : "a8bac30c8623c305",
+  "name" : "test_my",
+  "fullName" : "testcase.test_login_origin.TestTsg#test_my",
+  "historyId" : "79ed8f22c275b1b65af9b1bb3297ba9c",
+  "time" : {
+    "start" : 1577018065841,
+    "stop" : 1577018065842,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91d7a0d6a2387eba",
+      "name" : "log",
+      "source" : "91d7a0d6a2387eba.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a3b25b8e2baf6ae8",
+      "name" : "stdout",
+      "source" : "a3b25b8e2baf6ae8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "b093af9c0966de73",
+      "name" : "stderr",
+      "source" : "b093af9c0966de73.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_origin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTsg"
+  }, {
+    "name" : "host",
+    "value" : "promote.cache-dns.local"
+  }, {
+    "name" : "thread",
+    "value" : "48087-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login_origin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8bac30c8623c305.json",
+  "parameterValues" : [ ]
+}
