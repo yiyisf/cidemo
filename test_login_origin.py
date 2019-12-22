@@ -13,23 +13,13 @@ logging.basicConfig(filename="tsg.log", level=logging.INFO, format='%(asctime)s 
 
 class TestTsg:
     def setup(self):
-
-        # opt = Options()
-        # # opt.set_headless()
-        # opt.add_argument('--no-sandbox')
-        # # 让Chrome在root权限下跑
-        # opt.add_argument('--disable-dev-shm-usage')
-        # opt.add_argument('--headless')
-        # opt.add_argument('blink-settings=imagesEnabled=false')
-        # opt.add_argument('--disable-gpu')
-        # chrome_options = Options()
-        # chrome_options.add_argument('--no-sandbox')
-        # chrome_options.add_argument('--disable-dev-shm-usage')
-        # chrome_options.add_argument('--headless')
-        # self.driver = webdriver.Chrome(chrome_options=chrome_options)
-
-
-        self.driver = webdriver.Chrome('/usr/bin/chromedriver')
+        chromeOptions = webdriver.ChromeOptions()
+        chromeOptions.add_argument('--no-sandbox')
+        chromeOptions.add_argument('--disable-dev-shm-usage')
+        chromeOptions.add_argument('--headless')
+        chromeOptions.add_argument('blink-settings=imagesEnabled=false')
+        chromeOptions.add_argument('--disable-gpu')
+        self.driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', chrome_options=chromeOptions)
         self.driver.implicitly_wait(10)
         self.driver.get("https://fxm5547.baobaobooks.com/")
         assert "小明fxm5547" in self.driver.title
