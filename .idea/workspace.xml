@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c15ff9a8-a1af-41f1-877e-a0f511672282" name="Default Changelist" comment="" />
+    <list default="true" id="c15ff9a8-a1af-41f1-877e-a0f511672282" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_login_origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_login_origin.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_login_origin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="315">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -140,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576983596893</updated>
-      <workItem from="1576983600041" duration="2408000" />
+      <workItem from="1576983600041" duration="3638000" />
     </task>
     <task id="LOCAL-00001" summary="add options">
       <created>1576992441094</created>
@@ -177,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576994094505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add options">
+      <created>1576994815791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576994815791</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upd">
+      <created>1576995594325</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576995594325</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -193,16 +210,22 @@
     <history-entry file="pytest_for_test_login_origin_TestTsg - 2019.12.22 at 13h 38m 53s.xml">
       <configuration name="pytest for test_login_origin.TestTsg" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_login_origin_TestTsg - 2019.12.22 at 14h 05m 48s.xml">
+      <configuration name="pytest for test_login_origin.TestTsg" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_origin_TestTsg - 2019.12.22 at 14h 06m 41s.xml">
+      <configuration name="pytest for test_login_origin.TestTsg" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2408000" />
+    <option name="totallyTimeSpent" value="3638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -229,7 +252,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add options" />
-    <option name="LAST_COMMIT_MESSAGE" value="add options" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ciemo$pytest_for_test_login_origin_TestTsg.coverage" NAME="pytest for test_login_origin.TestTsg Coverage Results" MODIFIED="1576994789757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -238,8 +262,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_login_origin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="315">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

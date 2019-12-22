@@ -21,7 +21,7 @@ class TestTsg:
         chromeOptions.add_argument('--disable-gpu')
         chromeOptions.binary_location = r""
         # self.driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', chrome_options=chromeOptions)
-        self.driver = webdriver.Chrome(options=chromeOptions)
+        self.driver = webdriver.Chrome(options=chromeOptions, executable_path='/usr/bin/chromedriver')
         self.driver.implicitly_wait(10)
         self.driver.get("https://fxm5547.baobaobooks.com/")
         assert "小明fxm5547" in self.driver.title
