@@ -15,7 +15,7 @@ class TestTsg:
     def setup(self):
 
         opt = Options()
-        opt.set_headless()
+        # opt.set_headless()
         opt.add_argument('--no-sandbox')
         # 让Chrome在root权限下跑
         opt.add_argument('--disable-dev-shm-usage')
