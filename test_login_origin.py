@@ -22,14 +22,14 @@ class TestTsg:
         # opt.add_argument('--headless')
         # opt.add_argument('blink-settings=imagesEnabled=false')
         # opt.add_argument('--disable-gpu')
-        chrome_options = Options()
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-dev-shm-usage')
-        chrome_options.add_argument('--headless')
-        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        # chrome_options = Options()
+        # chrome_options.add_argument('--no-sandbox')
+        # chrome_options.add_argument('--disable-dev-shm-usage')
+        # chrome_options.add_argument('--headless')
+        # self.driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
-        # self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome('/usr/bin/chromedriver')
         self.driver.implicitly_wait(10)
         self.driver.get("https://fxm5547.baobaobooks.com/")
         assert "小明fxm5547" in self.driver.title
