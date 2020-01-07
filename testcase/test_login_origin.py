@@ -37,6 +37,6 @@ class TestTsg:
     def test_my(self):
         self.driver.get("https://www.jianshu.com/p/bbaed979df6e000")
         sleep(5)
-        self.driver.get_screenshot_as_file('firstpage1.png')
+        self.driver.get_screenshot_as_file('firstpage2.png')
 
         pass
