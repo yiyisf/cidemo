@@ -25,8 +25,9 @@ class TestTsg:
         self.driver.implicitly_wait(10)
         # self.driver.get("https://fxm5547.baobaobooks.com/")
         # assert "小明fxm5547" in self.driver.title
-        self.driver.get("https://www.jianshu.com/p/c16498b6b1c1")
+        self.driver.get("https://www.jianshu.com/u/0a236a96b84c")
         sleep(5)
+        assert "小明fxm5547" in self.driver.title
         self.driver.get_screenshot_as_file('firstpage.png')
 
     def teardown(self):
