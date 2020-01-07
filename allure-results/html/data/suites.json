@@ -9,7 +9,7 @@
         "name" : "TestTsg",
         "children" : [ {
           "name" : "test_my",
-          "uid" : "4b1f648d3a111333",
+          "uid" : "8e0a35f9e2a160cc",
           "parentUid" : "3058821c4a9d9ff9677e3ebf35466890",
           "status" : "passed",
           "time" : {

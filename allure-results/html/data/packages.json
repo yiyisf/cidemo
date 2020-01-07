@@ -5,7 +5,7 @@
     "name" : "testcase.test_login_origin",
     "children" : [ {
       "name" : "test_my",
-      "uid" : "4b1f648d3a111333",
+      "uid" : "8e0a35f9e2a160cc",
       "parentUid" : "3ee56b38f59caa97024f2e0dbb1d120e",
       "status" : "passed",
       "time" : {
