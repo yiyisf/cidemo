@@ -35,6 +35,6 @@ class TestTsg:
 
 
     def test_my(self):
-        self.driver.get("https://www.jianshu.com/p/bbaed979df6e")
+        self.driver.get("https://www.jianshu.com/p/bbaed979df6e000")
 
         pass
